@@ -1,0 +1,30 @@
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0 20px 0;
+    text-align: center;
+    background: url('./app/images/home-background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 50px;
+}
+
+.brand-image {
+    width: 20%;
+    height: auto;
+    margin: 5% 0 2% 0;
+
+}
+
+.intro-text {
+    font-size: 40px;
+    letter-spacing: 4px;
+}

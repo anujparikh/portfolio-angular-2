@@ -1,0 +1,84 @@
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    background: 0 0;
+}
+
+.navbar-up {
+    background-color: black;
+    top: -50px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+.navbar-brand:active {
+    color: #fdfdfd;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #fdfdfd;
+}
+
+.navbar-default .navbar-brand:hover {
+    outline: 0;
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+#toggleBtn:hover,
+#toggleBtn:focus,
+#toggleBtn:active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: lightgray;
+    color: black;
+}
+
+@media (min-width: 767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 2px;
+        background: 0 0;
+        box-shadow: none;
+        position: fixed;
+        transition: top 0.2s ease-in-out;
+        -moz-transition: top 0.2s ease-in-out;
+        -webkit-transition: top 0.2s ease-in-out;
+    }
+
+    .navbar-up {
+        border-bottom: 0;
+        letter-spacing: 2px;
+        background: 0 0;
+        box-shadow: none;
+        transition: top 0.2s ease-in-out;
+        -moz-transition: top 0.2s ease-in-out;
+        -webkit-transition: top 0.2s ease-in-out;
+        top: -50px;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom .top-nav-collapse {
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+}
