@@ -1,11 +1,14 @@
 import {CompanyInfo} from "./company-info";
 
 var uptake:CompanyInfo = {
+    id: 1,
     name: "Uptake",
+    image: "uptake-logo.png",
     location: "Chicago, IL",
     start: "September, 2015",
     end: "August, 2016",
-    link: "www.uptake.com",
+    displayLink: "www.uptake.com",
+    link: "http://www.uptake.com",
     about: [
         "Uptake was listed as Hottest Startup of 2015 beating Slack and Uber by Forbes.",
         "Uptake is developing an Analytics and Predictive Software backend service for major industries like construction, aviation, mining, rail, and more.",
@@ -24,11 +27,14 @@ var uptake:CompanyInfo = {
 }
 
 var wsu:CompanyInfo = {
+    id: 2,
     name: "Wayne State University",
+    image: "wsu-logo.png",
     location: "Detroit, MI",
     start: "May, 2015",
     end: "August, 2015",
-    link: "www.library.wayne.edu",
+    displayLink: "www.library.wayne.edu",
+    link: "http://library.wayne.edu/",
     about: [
         "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
         "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
