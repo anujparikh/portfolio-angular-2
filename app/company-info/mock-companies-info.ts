@@ -52,4 +52,104 @@ var wsu:CompanyInfo = {
     ]
 }
 
-export const companyInfos:CompanyInfo[] = [uptake, wsu];
+var infosys:CompanyInfo = {
+    id: 3,
+    name: "Infosys",
+    image: "infosys-logo.png",
+    modalTarget: "infosysModal",
+    location: "Pune, India",
+    start: "July, 2008",
+    end: "December, 2014",
+    displayLink: "www.infosys.com",
+    link: "https://www.infosys.com/",
+    about: [
+        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
+        "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
+    ],
+    role: "Front End Developer involved in Fall release of Library website for the University.",
+    technologies: [
+        "Active member of development team for upgrading Library website with newer features like logging user actives, parsing logs, Quicksearch functionality using Solr Indexing.",
+        "Developed and implemented a flow, which would record user's click on the website using PHP and store them in MySQL database using Python script.",
+        "Imported data from MySQL to Solr4.1 database for more meaningful return of search done by user using Solr's import functionality.",
+        "Developing web-based user interface for company's product using AngularJS, HTML5, CSS3, JQuery.",
+        "Implemented Autocomplete functionality which returned combination of data fetched from Solr database based on user activities and Google's Autocomplete.",
+        "Modified look-n-feel for library website, to be more consistent with other University's website.",
+    ]
+}
+
+var rcbc:CompanyInfo = {
+    id: 4,
+    name: "RCBC Bank",
+    image: "rcbc-bank-logo.png",
+    modalTarget: "rcbcModal",
+    location: "Manila, Philippines",
+    start: "March, 2009",
+    end: "August, 2012",
+    displayLink: "www.rcbc.com",
+    link: "https://www.rcbc.com/",
+    about: [
+        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
+        "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
+    ],
+    role: "Front End Developer involved in Fall release of Library website for the University.",
+    technologies: [
+        "Active member of development team for upgrading Library website with newer features like logging user actives, parsing logs, Quicksearch functionality using Solr Indexing.",
+        "Developed and implemented a flow, which would record user's click on the website using PHP and store them in MySQL database using Python script.",
+        "Imported data from MySQL to Solr4.1 database for more meaningful return of search done by user using Solr's import functionality.",
+        "Developing web-based user interface for company's product using AngularJS, HTML5, CSS3, JQuery.",
+        "Implemented Autocomplete functionality which returned combination of data fetched from Solr database based on user activities and Google's Autocomplete.",
+        "Modified look-n-feel for library website, to be more consistent with other University's website.",
+    ]
+}
+
+var chinaBank:CompanyInfo = {
+    id: 5,
+    name: "China Bank",
+    image: "china-bank-logo.png",
+    modalTarget: "chinaBankModal",
+    location: "Manila, Philippines",
+    start: "December, 2013",
+    end: "November, 2014",
+    displayLink: "www.chinabank.ph",
+    link: "http://www.chinabank.ph/",
+    about: [
+        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
+        "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
+    ],
+    role: "Front End Developer involved in Fall release of Library website for the University.",
+    technologies: [
+        "Active member of development team for upgrading Library website with newer features like logging user actives, parsing logs, Quicksearch functionality using Solr Indexing.",
+        "Developed and implemented a flow, which would record user's click on the website using PHP and store them in MySQL database using Python script.",
+        "Imported data from MySQL to Solr4.1 database for more meaningful return of search done by user using Solr's import functionality.",
+        "Developing web-based user interface for company's product using AngularJS, HTML5, CSS3, JQuery.",
+        "Implemented Autocomplete functionality which returned combination of data fetched from Solr database based on user activities and Google's Autocomplete.",
+        "Modified look-n-feel for library website, to be more consistent with other University's website.",
+    ]
+}
+
+var citySavingsBank:CompanyInfo = {
+    id: 6,
+    name: "City Savings Bank",
+    image: "city-savings-bank-logo.png",
+    modalTarget: "csbModal",
+    location: "Cebu, Philippines",
+    start: "January, 2013",
+    end: "November, 2013",
+    displayLink: "www.citysavingsbank.com",
+    link: "https://www.citysavingsbank.com/",
+    about: [
+        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
+        "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
+    ],
+    role: "Front End Developer involved in Fall release of Library website for the University.",
+    technologies: [
+        "Active member of development team for upgrading Library website with newer features like logging user actives, parsing logs, Quicksearch functionality using Solr Indexing.",
+        "Developed and implemented a flow, which would record user's click on the website using PHP and store them in MySQL database using Python script.",
+        "Imported data from MySQL to Solr4.1 database for more meaningful return of search done by user using Solr's import functionality.",
+        "Developing web-based user interface for company's product using AngularJS, HTML5, CSS3, JQuery.",
+        "Implemented Autocomplete functionality which returned combination of data fetched from Solr database based on user activities and Google's Autocomplete.",
+        "Modified look-n-feel for library website, to be more consistent with other University's website.",
+    ]
+}
+
+export const companyInfos:CompanyInfo[] = [uptake, wsu, infosys, rcbc, chinaBank, citySavingsBank];
