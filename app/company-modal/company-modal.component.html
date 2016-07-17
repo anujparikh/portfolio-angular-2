@@ -1,12 +1,12 @@
-<a class="project-link" data-toggle="modal" data-target="#uptakeModal">
+<a class="project-link" data-toggle="modal" [attr.data-target]="'#' + companyInfo.modalTarget">
     <div class="caption">
         <div class="caption-content">
             <i class="fa fa-search-plus fa-3x"></i>
         </div>
     </div>
-    <img src="./app/images/{{companyInfo.image}}" class="img-responsive project-image" alt="Uptake">
+    <img src="./app/images/{{companyInfo.image}}" class="img-responsive project-image" alt="{{companyInfo.name}}">
 </a>
-<div id="uptakeModal" class="modal fade" role="dialog">
+<div id="{{companyInfo.modalTarget}}" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

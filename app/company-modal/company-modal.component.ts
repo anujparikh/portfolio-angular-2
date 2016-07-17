@@ -1,4 +1,4 @@
-import {Component, OnInit, Input} from "@angular/core";
+import {Component, OnInit, Input, Output} from "@angular/core";
 
 import {CompanyInfoService} from "../company-info/compony-info.service";
 import {CompanyInfo} from "../company-info/company-info";
@@ -14,6 +14,7 @@ export class CompanyModalComponent implements OnInit {
     error:any;
     companyInfos:CompanyInfo[];
     @Input() companyInfo:CompanyInfo;
+    @Output() retrievedCompanyInfo:CompanyInfo;
 
     constructor(private companyInfoService:CompanyInfoService) {
     }
@@ -28,6 +29,6 @@ export class CompanyModalComponent implements OnInit {
     }
 
     getCompanyInfo() {
-        this.companyInfo = this.companyInfoService.getCompanyInfoById(1);
+        this.retrievedCompanyInfo = this.companyInfoService.getCompanyInfoById(this.companyInfo.id);
     }
 }
