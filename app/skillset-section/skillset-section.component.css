@@ -1,0 +1,82 @@
+.skill-set-section {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    background-color: rgba(211, 211, 211, 0.18);
+}
+
+.skill-set-text {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-right: 90px;
+    border-bottom: 3px solid black;
+    margin-bottom: 15px;
+}
+
+canvas {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: auto;
+}
+
+.bean-skills {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bean-skills p {
+    margin-bottom: 20px;
+}
+
+ul.bean-skillset {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.tool-set {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    font-size: 17px;
+}
+
+.skill-percent {
+    float: right;
+}
+
+li.skill-bar {
+    background-color: #7BC673;
+    color: #FFF;
+    font: 12px/23px "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    margin-bottom: 4px;
+    padding: 2px 8px;
+    width: 300px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+}
+
+.skill-set-details {
+    margin-right: 50px;
+}
+
+.tool-text, .tech-text {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 4px;
+    border-bottom: 1px solid gray;
+}
+
+.tech-text {
+    margin-left: 28%;
+}

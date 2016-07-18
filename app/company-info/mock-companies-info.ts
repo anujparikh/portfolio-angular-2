@@ -38,7 +38,7 @@ var wsu:CompanyInfo = {
     displayLink: "www.library.wayne.edu",
     link: "http://library.wayne.edu/",
     about: [
-        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offer more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
+        "Founded in 1868, Wayne State University is a nationally recognized metropolitan research institution offering more than 370 academic programs through 13 schools and colleges to nearly 28,000 students.",
         "Wayne State University having multiple libraries support vivid features through its website like Online issuing, Elibrary for ebooks, Interlibrary loan, Ask-a-librarian feature, Quicksearch and many more.",
     ],
     role: "Front End Developer involved in Fall release of Library website for the University.",

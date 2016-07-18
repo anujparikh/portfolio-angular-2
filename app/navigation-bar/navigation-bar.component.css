@@ -3,7 +3,7 @@
     border-bottom: 0;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    background: 0 0;
+    background: rgba(0, 0, 0, 0.58);
 }
 
 .navbar-up {
@@ -51,10 +51,10 @@
 
 @media (min-width: 767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 5px 0;
         border-bottom: 0;
         letter-spacing: 2px;
-        background: 0 0;
+        background: rgba(0, 0, 0, 0.58);
         box-shadow: none;
         position: fixed;
         transition: top 0.2s ease-in-out;
