@@ -1,4 +1,4 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, ViewChild} from "@angular/core";
 
 @Component({
     selector: 'skillset-canvas',
@@ -6,9 +6,5 @@ import {Component, OnInit} from "@angular/core";
     styleUrls: ['./app/skillset-canvas/skillset-canvas.component.css']
 })
 
-export class SkillsetCanvasComponent implements OnInit {
-
-    ngOnInit() {
-        
-    }
+export class SkillsetCanvasComponent {
 }
